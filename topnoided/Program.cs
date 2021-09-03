@@ -11,7 +11,7 @@ namespace top_noided
     {
         private static void Main()
         {
-            // Game lopp pattern
+            // Game loop pattern
             while (true)
             {
                 // Builds a table where all relevant processes' data is stored
@@ -159,7 +159,7 @@ namespace top_noided
             // topnoided resets the console cursor to (0,0) and overwrites everything to avoid flickers
             while (lines < 20)
             {
-                // 8+8++64 spaces
+                // 8+8+8+64 spaces
                 sb.AppendLine("                                                                                        ");
                 lines++;
             }
