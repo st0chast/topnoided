@@ -14,5 +14,10 @@ You know that feel when your computer's fans spin like no tommorow, but once you
 ## Build
 Clone into your latest Visual Studio installation, and build.
 
+## FAQ
+Q: I get "error CS1056: Unexpected Character '$'", what can be done?
+
+A: Update Visual Studio.
+
 ## Licence
 0BSD
