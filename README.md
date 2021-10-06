@@ -11,5 +11,8 @@ You know that feel when your computer's fans spin like no tommorow, but once you
   - Inform what processes have stopped or attemted to hide from you
 - Improve the looks, or make a better looking fork while keeping it simple here
 
+## Build
+Clone into your latest Visual Studio installation, and build.
+
 ## Licence
 0BSD
