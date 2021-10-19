@@ -8,8 +8,8 @@ You know that feel when your computer's fans spin like no tommorow, but once you
 - Command line arguments
   - [x] Do not hide Session 0 processes
 - Address known crashes
-  - [] Do not crash
-  - [] Inform what processes have stopped or attemted to hide from you
+  - [ ] Do not crash
+  - [ ] Inform what processes have stopped or attemted to hide from you
 - Improve the looks, or make a better looking fork while keeping it simple here
 
 ## Command line arguments
