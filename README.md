@@ -27,7 +27,7 @@ Q2: I get "warning CA1416: This call site is reachable on all platforms", what c
 
 A: All the code is Windows only, Net 5 is just nicer to write for right now. Let this warning be a reminder that you're not supposed to build this for any other system.
 
-## Contatcs
+## Contacts
 
 Feel free to reach me at nodes:matrix.org, though keep in mind that in accordance with [the guidelines](CODE_OF_CONDUCT.md) all interactions there do not represent this project.
 
