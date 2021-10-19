@@ -9,8 +9,15 @@ namespace top_noided
 {
     internal class Program
     {
-        private static void Main()
+        private static void Main(string[] args)
         {
+            // args processing
+            bool showall = false;
+            if (args.Length != 0)
+            {
+                // bool is equal to the result of logical comparison
+                showall = args[0] == "showall";
+            }
             // Game loop pattern
             while (true)
             {
@@ -25,8 +32,9 @@ namespace top_noided
                 AddColumn(PT.Table, $"{typeof(float)}", "CPU%");
                 // Gets all processes' data
                 Process[] processes = Process.GetProcesses();
-                // Removes data for Session 0 processes
-                processes = processes.Where(x => x.SessionId != 0).ToArray();
+                // Removes data for Session 0 processes. Keeps them if the "showall" command line argument is called
+                Process[] GetProcesses(bool x) => x == true ? processes : processes.Where(x => x.SessionId != 0).ToArray();
+                processes = GetProcesses(showall);
                 // ProcessData includes CPU and working set memory performance counters
                 ProcessData[] rawTable = new ProcessData[processes.Length];
                 // Translates data from Processes[] to ProcessData[] and creates performance counters
