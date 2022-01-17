@@ -1,6 +1,8 @@
 # topnoided
 A simple top command for Windows.
 
+Project's on hold. Haven't had access to a Windows machine in months, and I'm not sure when this is going to change.
+
 ## Notes
 You know that feel when your computer's fans spin like no tommorow, but once you open Task Manager your fans are dead silent? Stuff like that keeps you noided. That's why I got me a simple recreation of [top](https://en.wikipedia.org/wiki/Top_(software)) for Windows.
 
