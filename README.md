@@ -13,6 +13,7 @@ You know that feel when your computer's fans spin like no tommorow, but once you
   - [ ] Do not crash
   - [ ] Inform what processes have stopped or attemted to hide from you
 - Improve the looks, or make a better looking fork while keeping it simple here
+- Pack it as a .NET tool, here's a [tutorial](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools-how-to-create)
 
 ## Command line arguments
 `topnoided.exe showall` doesn't let the app hide Session 0 processes
